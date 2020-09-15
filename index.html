@@ -1,0 +1,96 @@
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital@1&family=Quicksand:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="title">Christ church Survey Form</h1>
+        <p id="description"> <i> Thank you for helping us improve our services</i></p>
+    </div>
+    <div class="textbox">
+        <form action="" id="survey-form">
+            <label for="name" id="name-label"> Name <br>
+            <input type="text" placeholder="Enter your name" id="name" required class="fillbox"><br><br>
+            </label>
+            <label for="email" id="email-label"> Email <br>
+            <input type="email" placeholder="Enter your email" id="email" required class="fillbox"><br><br>
+            </label>
+            <label for="number" id="number-label"> Age <small> (optional)</small><br>
+            <input type="number" placeholder="Enter your age" id="number" min="10" max="99" class="fillbox"><br><br>
+            </label>
+            <label for="dropdown" id="dropdown-label"> How did you meet us? <br>
+                <select id="dropdown" class="fillbox">
+                    <option value="option1" >A friend invited me</option>
+                    <option value="option2">I saw publicity on the web</option>
+                    <option value="option3">A post on instagram took my attention</option>
+                    <option value="option4">A heard about the church on a social activity</option>
+                    <option value="option5">I was casually walking aorund and saw the building</option>
+                    <option value="option5">Other</option>
+                </select><br>
+            </label><br>
+            <div> Which of our locations do you attend? <br>
+                <div class="options">
+                <label for="Porto"> 
+                    <input type="radio" id="Porto" value="Porto" name="locations"> Porto
+                </label>
+                <label for="Espinho"> <br>
+                    <input type="radio" id="Espinho" value="Espinho" name="locations"> Espinho
+                </label>
+                <label for="Lisboa"> <br>
+                    <input type="radio" id="Lisboa" value="Lisboa" name="locations"> Lisboa
+                </label>
+                <label for="Braga"> <br>
+                    <input type="radio" id="Braga" value="Braga" name="locations"> Braga
+                </label><br><br>
+                </div>
+            </div>
+            <label for="dropdown2" id="dropdown-label2"> Which option best describes your current role in our Church? <br>
+                <select id="dropdown2" class="fillbox">
+                    <option value="visitor" >Visitor</option>
+                    <option value="regular">Regular assistant</option>
+                    <option value="collaborator">Occasional collaborator in social works</option>
+                    <option value="server">Regular assistant actively serving on a ministry</option>
+                    <option value="leadership">Member of church leadership</option>
+                </select><br>
+            </label><br>
+            <div> Which activities of our church do you enjoy the most? <br>
+                <div class="options">
+                    <label for="checkbox1"> 
+                        <input type="checkbox" id="checkbox1" value="checkbox1" name="checkbox-options"> Our Sunday messages
+                    </label>
+                    <label for="checkbox2"> <br>
+                        <input type="checkbox" id="checkbox2" value="checkbox2" name="checkbox-options"> Church music
+                    </label>
+                    <label for="checkbox3"> <br>
+                        <input type="checkbox" id="checkbox3" value="checkbox3" name="checkbox-options"> Youth group
+                    </label>
+                    <label for="checkbox4"> <br>
+                        <input type="checkbox" id="checkbox4" value="checkbox4" name="checkbox-options"> House meetings
+                    </label>
+                    <label for="checkbox5"> <br>
+                        <input type="checkbox" id="checkbox5" value="checkbox5" name="checkbox-options"> Social works
+                    </label>
+                    <label for="checkbox6"> <br>
+                        <input type="checkbox" id="checkbox6" value="checkbox6" name="checkbox-options"> Group walks
+                    </label>
+                    <label for="checkbox7"> <br>
+                        <input type="checkbox" id="checkbox7" value="checkbox7" name="checkbox-options"> Seminars
+                    </label>
+                    <label for="checkbox7"> <br>
+                        <input type="checkbox" id="checkbox7" value="checkbox7" name="checkbox-options"> Workshops
+                    </label>
+                    <label for="checkbox7"> <br>
+                        <input type="checkbox" id="checkbox7" value="checkbox7" name="checkbox-options"> Summer camps
+                    </label>
+                </div>
+            </div><br>
+            <label for="comments" id="comment-label"> Please leave us a message with any thought, doubts or suggestions <br>
+                <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comment here..." class="comments"></textarea><br>
+            </label><br>
+            <div style="text-align: center;">
+                <button type="submit" class="submitbutton" id="submit"> <strong> Submit </strong></button> <br><br><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
